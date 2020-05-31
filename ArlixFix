@@ -1,0 +1,22 @@
+/*
+Title: Discussion 1.1 - Values and Variable 
+Author: Arlix Sorto
+Date: 25 May 2020
+Description: JavaScript program using value and variables with errors.
+*/
+
+/*First var was capitalized, I have made that lowercase*/
+var bookTitle = "JavaScript: The Definitive Guide";
+var bookAuthor = "David Flanagan";
+/*variable for edition should be a string, " " were added*/
+var edition = "6th";
+/*variable for publisher used ' ', I have changed to ""*/
+var publisher = "O'Reilly Media, Inc";
+var ISBN = 97805968085524;
+
+
+console.log("Book title: " + bookTitle);
+console.log("Author: " + bookAuthor);
+console.log("Edition: " + edition);
+console.log("Publisher: " + publisher);
+console.log("ISBN: " + ISBN);
