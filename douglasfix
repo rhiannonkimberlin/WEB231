@@ -1,0 +1,36 @@
+/* ============================================ 
+
+; Title: Discussion Board Mistake
+
+;Author: Professor Krasso
+
+;Date: 25 May 2020
+
+;Modified By: Douglas Jenkins
+
+;Description: There are three mistakes below
+
+=========================================== */
+
+//List of Variable Declaration
+
+var gameTitle;
+
+var date;
+
+
+//This variable has two mistakes
+/*Game title is not fully enclosed with " "*/
+
+gameTitle= "Persona 5 Royal";
+
+/*Date does not equal anything*/
+date = "June 26th 2017";
+
+
+//The output has a mistake
+
+consolelog(gameTitle);
+
+console.log(date);
+
