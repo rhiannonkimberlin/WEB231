@@ -1,0 +1,28 @@
+/*
+ 	============================================
+ 	; Author: Rhiannon Kimberlin
+ 	; Date: 2 July 2020
+ 	; Modified By: 
+ 	; Description: Find errors OBJECTS & BUILT IN OBJECTS
+ 	;===========================================
+ 	*/
+	  
+	 //Expected Output
+	 /*Great job achieving benchmark results! That was possible through your commitment to excellence! Lets have another great month!
+
+	We didnt do as well as we were expecting. What input can you put in about why we did not achieve our goal so we can do better next month?*/
+ 
+let teamMessage = 'Great job achieving benchmark results! That was possible through your commitment to excellence! Let's have another great month!';
+
+let team = {
+	greatJob[] {
+		console.log(teamMessage)
+	},
+	needsImprovement[] {
+		console.log('We didnt do as well as we were expecting. What input can you put in about why we did not achieve our goal so we can do better next month?')
+	}
+};
+
+team.greatJob();
+console.log("")
+team.needsImprovement();
