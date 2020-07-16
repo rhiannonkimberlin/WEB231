@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<title>Rhiannon Kimberlin Discussion 8.1</title>
+</head>
+
+<body>
+    <table style="width:30%">
+        <tr>
+          <th><B>Button</B></th>
+          <th><b>Image</b></th>
+        </tr>
+        <tr>
+          <td><button type="button" class='hide-button'>Hide</button></td>
+          <td><img src="https://images.all-free-download.com/images/graphicthumb/beautiful_cat_picture_6_168770.jpg" class='first-image' alt='Studious Cat'></td>
+        </tr>
+      </table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(() => {
+  $('.hide-button').on('click', () <= {
+    $('first-image').hide();
+  })
+});
+</script>
+</body>
