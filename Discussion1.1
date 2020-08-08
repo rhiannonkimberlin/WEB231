@@ -1,0 +1,13 @@
+function pet(name, species) {
+    this.name = name;
+    this.species = species;
+    }
+pet.prototype.toString = function() {
+    return this.name + " is my " + this.species + "."
+};
+
+var dog = new pet( "Freya", "dog");
+var cat = new pet( "Link", "cat");
+
+console.log(dog.toString());
+console.log(cat.toString());
